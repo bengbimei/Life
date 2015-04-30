@@ -14,9 +14,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent intent=new Intent();
-        intent.setClass(getApplicationContext(),JiankangActivity.class);
-        startActivity(intent);
+    
     }
 
 }
