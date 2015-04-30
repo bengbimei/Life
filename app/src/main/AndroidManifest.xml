@@ -27,6 +27,9 @@
         <activity
             android:name=".OtherActivity"
             android:label="@string/app_name"></activity>
+        <activity
+            android:name=".JiankangActivity"
+            android:label="@string/app_name"></activity>
     </application>
 
 </manifest>
