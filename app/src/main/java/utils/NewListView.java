@@ -23,4 +23,6 @@ public class NewListView extends ListView{
         int fullHeight = getListPaddingTop() + getListPaddingBottom() + childHeight*(getCount());
         setMeasuredDimension(getMeasuredWidth(), fullHeight);
     }
+
+
 }
