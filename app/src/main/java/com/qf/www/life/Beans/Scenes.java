@@ -25,7 +25,7 @@ public class Scenes {
         this.sceneTitleImage = sceneTitleImage;
     }
 
-    public String getSceneBackgroundImage() {
+    public String getSceneBackgroundImage()   {
         return sceneBackgroundImage;
     }
 
