@@ -3,7 +3,7 @@ package com.qf.www.life;
 import android.app.Activity;
 import android.os.Bundle;
 
-import Adapter.Adapter_Jiankang;
+import com.qf.www.life.Adapter.Adapter_Jiankang;
 import utils.NewListView;
 
 /**

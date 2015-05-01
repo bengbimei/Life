@@ -3,8 +3,8 @@ package com.qf.www.life;
 import android.app.Activity;
 import android.os.Bundle;
 
-import Adapter.Adapter_Other_down;
-import Adapter.Adapter_Other_up;
+import com.qf.www.life.Adapter.Adapter_Other_down;
+import com.qf.www.life.Adapter.Adapter_Other_up;
 import utils.NewListView;
 
 /**
