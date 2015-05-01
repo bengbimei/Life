@@ -26,22 +26,22 @@ public class BeginActivity extends FragmentActivity {
             startActivity(in);
             finish();
         }
-        //下载网络数据并解析存储
-        HttpUtils httpUtils = new HttpUtils(5000);
-        httpUtils.send(HttpRequest.HttpMethod.GET, Url.beautifulLife, new RequestCallBack<String>() {
-            @Override
-            public void onSuccess(ResponseInfo<String> objectResponseInfo) {
-                if (objectResponseInfo != null) {
-                    //传人json字符串，解析数据，存储在静态集合中
-                    BeautifulLife_parser.getResult(objectResponseInfo.result);
-                }
-            }
-
-            @Override
-            public void onFailure(HttpException e, String s) {
-                Toast.makeText(BeginActivity.this, "你的网速卡爆了", Toast.LENGTH_SHORT).show();
-            }
-        });
+//        //下载网络数据并解析存储
+//        HttpUtils httpUtils = new HttpUtils(5000);
+//        httpUtils.send(HttpRequest.HttpMethod.GET, Url.beautifulLife, new RequestCallBack<String>() {
+//            @Override
+//            public void onSuccess(ResponseInfo<String> objectResponseInfo) {
+//                if (objectResponseInfo != null) {
+//                    //传人json字符串，解析数据，存储在静态集合中
+//                    BeautifulLife_parser.getResult(objectResponseInfo.result);
+//                }
+//            }
+//
+//            @Override
+//            public void onFailure(HttpException e, String s) {
+//                Toast.makeText(BeginActivity.this, "你的网速卡爆了", Toast.LENGTH_SHORT).show();
+//            }
+//        });
 
     }
 
