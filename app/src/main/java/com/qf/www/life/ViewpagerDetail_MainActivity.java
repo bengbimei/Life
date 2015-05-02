@@ -12,7 +12,7 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.Map;
 
-import Adapter.Adapter_ViewpagerDetail;
+import com.qf.www.life.Adapter.Adapter_ViewpagerDetail;
 
 import utils.HttpUtil;
 

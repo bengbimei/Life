@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_jiangkang_bottom"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/gray"
+        android:textSize="13sp"
+        android:layout_height="50dp"
+        android:text="本应用内容不作为为诊断和治疗的依据，内容及方法仅作为生活保健的咨询建议。如遇不适请及时就医治疗"/>
+</LinearLayout>

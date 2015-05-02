@@ -60,6 +60,7 @@
 
 
             <utils.NewListView
+
                 android:id="@+id/lv1_detail"
                 android:minHeight="40dp"
                 android:layout_height="wrap_content"
